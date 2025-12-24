@@ -107,6 +107,6 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    acm_certificate_arn = var.arn_us-east1
+    acm_certificate_arn = var.acm_us_east-1
   }
 }
